@@ -1,4 +1,4 @@
 from pytube import Playlist
-playlist = Playlist("https://www.youtube.com/playlist?list=PLynhp4cZEpTbRs_PYISQ8v_uwO0_mDg_X")
+playlist = Playlist("https://www.youtube.com/playlist?list=PLLC9OIbXopRINGfjkdll7eDaiyJw4Ddm7")
 for video in playlist:
 video.streams.get_highest_resolution().download()
